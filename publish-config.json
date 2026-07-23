@@ -1,0 +1,12 @@
+{
+	"minecraftVersion": "26.1.2",
+	"fabricLoaderVersion": "0.19.3",
+	"serverName": "TowerCraft",
+	"serverAddress": "91.197.6.249",
+	"serverPort": 23832,
+	"launcherVersion": "",
+	"launcherDownloadUrl": "",
+	"firstInstallOnlyPaths": [],
+	"optionalPaths": [],
+	"publicBaseUrl": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main"
+}

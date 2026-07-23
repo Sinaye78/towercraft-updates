@@ -1,0 +1,44 @@
+{
+  "packVersion": "1.0.0",
+  "minecraftVersion": "26.1.2",
+  "fabricLoaderVersion": "0.19.3",
+  "server": {
+    "name": "TowerCraft",
+    "address": "91.197.6.249",
+    "port": 23832
+  },
+  "files": [
+    {
+      "path": "mods/fabric-api-0.154.2+26.1.2.jar",
+      "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/fabric-api-0.154.2+26.1.2.jar",
+      "sha256": "89b232cdf0c73a6e0cc8338a7520d2ac197b9cb65adca0554860b68873ea03e1",
+      "size": 2514491,
+      "required": true,
+      "policy": "MANAGED"
+    },
+    {
+      "path": "mods/geckolib-fabric-26.1.2-5.5.2.jar",
+      "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/geckolib-fabric-26.1.2-5.5.2.jar",
+      "sha256": "3572efb3eb8aa199a323fca78398fdf84012babaece49da340de11d40f3aace5",
+      "size": 696572,
+      "required": true,
+      "policy": "MANAGED"
+    },
+    {
+      "path": "mods/moderner-beta-fabric-4.1.8+26.1.jar",
+      "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/moderner-beta-fabric-4.1.8+26.1.jar",
+      "sha256": "d5d1235bd79ff5e6d7994fabe04d26c1e3c9f77d3c97dddefae02f80e66c94e3",
+      "size": 2334677,
+      "required": true,
+      "policy": "MANAGED"
+    },
+    {
+      "path": "mods/towercraft-0.1.0.jar",
+      "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/towercraft-0.1.0.jar",
+      "sha256": "5cf5108462032d2b8fd451c66b3f5b0cd182e636cf785a46036910bb8bf293ce",
+      "size": 1037911,
+      "required": true,
+      "policy": "MANAGED"
+    }
+  ]
+}
