@@ -7,6 +7,11 @@
     "address": "91.197.6.249",
     "port": 23832
   },
+  "launcher": {
+    "version": "1.0.2",
+    "downloadUrl": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/launcher/launcher-update.zip",
+    "sha256": "fef70c644e7f947e906ab5bea5a7148a8c5279151b350ee1e4fe488062060f63"
+  },
   "files": [
     {
       "path": "mods/fabric-api-0.154.2+26.1.2.jar",
