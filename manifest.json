@@ -40,8 +40,8 @@
     {
       "path": "mods/towercraft-0.2.0.jar",
       "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/towercraft-0.2.0.jar",
-      "sha256": "a20cb3171b63f97cdf1c9bbaec7c50d1058c9c19fa16ec9cf7d5822d458f7d4b",
-      "size": 1037610,
+      "sha256": "4844fb7e6d8db1ee774dac0428c1ce409199a3a09af836c0f02783a246e0b723",
+      "size": 1037611,
       "required": true,
       "policy": "MANAGED"
     }
