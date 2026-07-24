@@ -1,6 +1,6 @@
 {
-  "packVersion": "1.0.0",
-  "minecraftVersion": "26.1.2",
+  "packVersion": "1.1.0",
+  "minecraftVersion": "26.2",
   "fabricLoaderVersion": "0.19.3",
   "server": {
     "name": "TowerCraft",
@@ -14,34 +14,34 @@
   },
   "files": [
     {
-      "path": "mods/fabric-api-0.154.2+26.1.2.jar",
-      "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/fabric-api-0.154.2+26.1.2.jar",
-      "sha256": "89b232cdf0c73a6e0cc8338a7520d2ac197b9cb65adca0554860b68873ea03e1",
-      "size": 2514491,
+      "path": "mods/fabric-api-0.155.2+26.2.jar",
+      "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/fabric-api-0.155.2+26.2.jar",
+      "sha256": "d6518c770024cbe8a556248f16fcdbb91c6a62f50227a6c3bae8190511e2c1b8",
+      "size": 2530080,
       "required": true,
       "policy": "MANAGED"
     },
     {
-      "path": "mods/geckolib-fabric-26.1.2-5.5.2.jar",
-      "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/geckolib-fabric-26.1.2-5.5.2.jar",
-      "sha256": "3572efb3eb8aa199a323fca78398fdf84012babaece49da340de11d40f3aace5",
-      "size": 696572,
+      "path": "mods/geckolib-fabric-26.2-5.5.3.jar",
+      "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/geckolib-fabric-26.2-5.5.3.jar",
+      "sha256": "697ea7c736f28a6b9f5b4d1b2b935a454bd0db1c3df35a6e8330b813bc1b6d1d",
+      "size": 694957,
       "required": true,
       "policy": "MANAGED"
     },
     {
-      "path": "mods/moderner-beta-fabric-4.1.8+26.1.jar",
-      "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/moderner-beta-fabric-4.1.8+26.1.jar",
-      "sha256": "d5d1235bd79ff5e6d7994fabe04d26c1e3c9f77d3c97dddefae02f80e66c94e3",
-      "size": 2334677,
+      "path": "mods/moderner-beta-fabric-5.0.0-alpha.2+26.2.jar",
+      "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/moderner-beta-fabric-5.0.0-alpha.2+26.2.jar",
+      "sha256": "ec47fa175fe3ad341ac4bee9fc686ffedd0dfdd60f188a35c60ee1758ee0d6ec",
+      "size": 2436012,
       "required": true,
       "policy": "MANAGED"
     },
     {
-      "path": "mods/towercraft-0.1.0.jar",
-      "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/towercraft-0.1.0.jar",
-      "sha256": "5cf5108462032d2b8fd451c66b3f5b0cd182e636cf785a46036910bb8bf293ce",
-      "size": 1037911,
+      "path": "mods/towercraft-0.2.0.jar",
+      "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/towercraft-0.2.0.jar",
+      "sha256": "a20cb3171b63f97cdf1c9bbaec7c50d1058c9c19fa16ec9cf7d5822d458f7d4b",
+      "size": 1037610,
       "required": true,
       "policy": "MANAGED"
     }
