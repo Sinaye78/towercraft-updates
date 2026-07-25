@@ -1,9 +1,24 @@
 # towercraft-updates
 
-Fichiers de mise a jour consommes automatiquement par le launcher TowerCraft (`manifest.json` +
-`mods/`). Publie et maintenu via l'outil `publish-pack` du depot principal `towercraft`
-(`launcher/publish-tool`) - voir `docs/launcher/admin-guide.md` dans ce depot pour publier une
-nouvelle version.
+Fichiers de mise a jour consommes automatiquement par TowerCraft Launcher (fork de Prism Launcher)
+au demarrage : `manifest.json` (nom/taille/SHA-256/URL par fichier) + `mods/`.
 
-Ne pas modifier les fichiers ici a la main : republie via `publish-pack` pour garder les hashes du
-manifeste coherents avec les fichiers reels.
+`manifest.json` :
+```json
+{
+    "manifestVersion": 1,
+    "gameVersion": "26.2",
+    "fabricLoaderVersion": "0.19.3",
+    "files": [
+        { "name": "mods/<fichier>.jar", "size": 0, "sha256": "...", "url": "https://raw.githubusercontent.com/..." }
+    ]
+}
+```
+
+Pour publier une mise a jour : remplace le(s) fichier(s) dans `mods/`, recalcule taille+SHA-256, mets
+a jour l'entree correspondante dans `manifest.json`, commit et push. Le launcher compare chaque
+fichier local par taille+SHA-256 (pas juste le nom) et supprime automatiquement tout fichier qui
+disparait de la liste `files` au prochain lancement.
+
+(L'ancien systeme JavaFX + `publish-tool` qui maintenait ce depot a ete abandonne - voir DECISIONS.md
+du depot `towercraft` principal.)
