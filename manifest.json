@@ -32,6 +32,12 @@
             "size": 1270474,
             "sha256": "bc40e79ce998e2949ad58dee565c13833f0f6b558ec1f553946eed38b02b29d4",
             "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/towercraft-0.2.0.jar"
+        },
+        {
+            "name": "mods/LuckPerms-Fabric-5.5.57.jar",
+            "size": 1621410,
+            "sha256": "ba25248ab89e95e83aac845a95e42f3e8743d58bd5b77dced50d1e944a5a658c",
+            "url": "https://raw.githubusercontent.com/Sinaye78/towercraft-updates/main/mods/LuckPerms-Fabric-5.5.57.jar"
         }
     ]
 }
